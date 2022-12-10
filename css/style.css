@@ -102,7 +102,7 @@ figure {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; 
-    border: #9e9f9e 6px groove;}
+    border: #9e9f9e 3px solid;}
   #colorlib-aside .position {
     display: block;
     margin-bottom: 2em;
@@ -1610,4 +1610,35 @@ body.offcanvas {
 .centerx {
   text-align: center;
 }
+
+.exam_02 {
+  padding: 10px 20px; /*отступ вложенного текста от рамки */
+  background: #968089; /* фон рамки */
+  font-size: 15px; /* размер шрифта */
+  border: 2px dashed #e3c3d4; /* размер, форма и цвет рамки */
+  border-radius: 10px; /* радиус скругления углов рамки */
+  box-shadow: 0 0 0 4px #968089, 2px 1px 6px 4px rgba(150, 128, 137, 0.5); /* смещение, размер и цвет тени рамки*/
+  color: #fff;
+  margin: 20px;
+  /* font-family: 'Lato', sans-serif; */
+  } 
+
+
+  .dark {
+    color: rgb(54, 10, 10);
+    text-decoration: none;
+    margin-top: 100;
+  }
+  
+  .colorlib{
+    color: #d7d6d6;
+  }
+
+  .fon {
+    display:block;
+    background: rgb(251, 251, 251);
+    background-image: linear-gradient(90deg, rgba(236, 236, 236, 0.5) 50%, transparent 0),
+      linear-gradient(rgba(232, 233, 232, 0.5) 50%, transparent 0);
+    background-size: 30px 30px;
+  }
 
